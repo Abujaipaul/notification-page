@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:  hsl(211, 68%, 94%);
+}
+
+.main{
+    background-color: white;
+    width: 410px;
+    height: 480px;
+    margin: 0px auto;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.notify{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 8px;
+}
+
+.notify h1{
+    font-size: 13px;
+    margin-left: 18px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.notify span{
+    background-color: blue;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.notify p{
+    font-size: 11px;
+    margin-right: 18px;
+    margin-top: 15px;
+    color: blue;
+    font-weight: lighter;
+}
+
+.notf1{
+    margin: 25px 19px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(211, 68%, 94%);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.notify a{
+    text-decoration: none;
+}
+.notf1:hover{
+    background-color: white;
+}
+.notf1 p{
+    font-size: 11px;
+    margin-left: 7px;
+    font-weight: lighter;
+}
+.notf1 img{
+    margin-right: 5px;
+}
+
+[id=notify]{
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    margin-top: 4.5px;
+    margin-right: 4px;
+    border-radius: 900px;
+    
+}
+.notf1 span:nth-child(1){
+    font-weight: 600;
+    font-size: 11px;
+    
+}
+
+.notf1 span:nth-child(2){
+    margin-top: 2px;
+    color: grey;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+
+.notf1 span:nth-child(3){
+    color: grey;
+    font-size: 10px;
+}
+
+.notf2{
+    margin-bottom: 2px;
+    margin-left: 19px;
+    margin-right: 19px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(211, 68%, 94%);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.notf2:hover{
+    background-color: white;
+}
+
+.notf2 img{
+    margin-right: 6px;
+}
+
+.notf2 p{
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-weight: lighter;
+}
+.notf2 span:nth-child(1){
+    font-weight: 800;
+    font-size: 11px;
+}
+.notf2 span:nth-child(2){
+    margin-top: 2px;
+    color: grey;
+    display: block;
+}
+
+.notf3{
+    margin-bottom: 2px;
+    margin-left: 19px;
+    margin-right: 19px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(211, 68%, 94%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.notf3:hover{
+    background-color: white;
+}
+
+.notf3 p{
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-weight: lighter;
+}
+.notf3 span:nth-child(1){
+    font-weight: 800;
+    font-size: 11px;
+
+}
+.notf3 span:nth-child(2){
+    color: blue;
+    font-weight: bold;
+}
+.notf3 span:nth-child(3){
+    margin-top: 2px;
+    display: block;
+    color: grey;
+}
+.notf3 img{
+    margin-right: 6px;
+}
+.notf4 {
+    margin-bottom: 2px;
+    margin-left: 19px;
+    margin-right: 19px;
+    display: flex;
+    position: relative;
+   
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.notf4:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+
+
+.notf4 p{
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-weight: lighter;
+    margin-bottom: 46px;
+    
+}
+.notf4 span:nth-child(1){
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 4px;
+
+}
+.notf4 span:nth-child(2){
+    margin-top: 2px;
+    display: block;
+    color: grey;
+    margin-left: 3px;
+}
+.notf4sub{
+    position: absolute;
+    top: 43px;
+    left: 40px;
+    
+
+}
+.notf4sub p{
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+.notf5{
+    margin-bottom: 2px;
+    margin-left: 19px;
+    margin-right: 19px;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.notf5:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+.notf5 p{
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-weight: lighter;
+    
+    
+}
+.notf5 span:nth-child(1){
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 4px;
+
+}
+.notf5 span:nth-child(2){
+    margin-top: 2px;
+    display: block;
+    color: grey;
+    margin-left: 3px;
+}
+.notf5 img:nth-child(3){
+    position: absolute;
+    top: 8px;
+    right:20px;
+}
+.notf6{
+    margin-bottom: 2px;
+        margin-left: 19px;
+        margin-right: 19px;
+        display: flex;
+        padding: 10px;
+        border-radius: 5px;
+}
+.notf6:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+.notf6 p{
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-weight: lighter;  
+}
+.notf6 span:nth-child(1){
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 4px;
+}
+.notf6 span:nth-child(2){
+    color: grey;
+   
+}
+
+.notf6 span:nth-child(3){
+    margin-top: 2px;
+    margin-left: 4px;
+    display: block;
+    color: grey;
+}
+.notf7{
+    display: flex;
+    margin-left: 19px;
+    margin-right: 19px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.notf7
+:hover{
+    background-color: hsl(211, 68%, 94%);
+}
+.notf7 p{
+    font-size: 11px;
+    margin-left: 7px;
+    margin-right: 5px;
+    font-weight: lighter;  
+}
+.notf7 span:nth-child(1){
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 4px;
+}
+.notf7 span:nth-child(2){
+    font-weight: 800;
+    font-size: 11px;
+}
+.notf7 span:nth-child(3){
+    margin-top: 2px;
+    margin-left: 4px;
+    display: block;
+    color: grey;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.attribution p{
+    margin-right: 3px;
+}
+.attribution span:nth-child(1){
+    background-color: orangered;
+    padding: 3px;
+    border-radius: 5px;
+}
+.attribution a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
